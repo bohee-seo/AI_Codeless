@@ -1,6 +1,15 @@
 {
   "steps": [
     {
+      "command": "Search for @TCode "
+    },
+    {
+      "command": "Click the \"Create Sales Orders\" text",
+      "textInfo": {
+        "partial": true
+      }
+    },
+    {
       "command": "Type @Order_type into \"Order Type: \" text_box"
     },
     {
@@ -41,6 +50,9 @@
     },
     {
       "command": "Click the \"Exit\" text"
+    },
+    {
+      "command": "Click the left_triangle"
     }
   ],
   "useOpenEnvironment": true,
@@ -77,6 +89,11 @@
     {
       "name": "Distribution_Channel",
       "value": "10",
+      "type": "input"
+    },
+    {
+      "name": "TCode",
+      "value": "VA01",
       "type": "input"
     }
   ],
